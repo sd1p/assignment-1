@@ -47,12 +47,12 @@
 }
 
 .rightContainer > div > h4 {
-  color: black;
+  color: rgba(0, 0, 0, 0.792);
   font: 400 2.5vh "Inter";
 }
 
 .rightContainer > div > p {
-  font: 400 1.5vh cursive;
+  font: 400 1.9vh cursive;
   margin: 0.2vmax;
   color: rgba(0, 0, 0, 0.426);
 }
@@ -71,7 +71,7 @@
     padding: 2vw;
   }
   .rightContainer > div > h4 {
-    font: 400 2.5vmax "Roboto";
+    font: 400 2.5vmax "Inter";
   }
 
   .rightContainer > div > p {
