@@ -1,0 +1,47 @@
+.circle {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  padding: 2px;
+}
+
+.box {
+  /* border: 1px solid rgba(0, 0, 0, 0.358); */
+  height: 20vh;
+  width: 14vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.btn {
+  background-color: white;
+  padding: 2px 0;
+  border: 1px solid rgba(0, 0, 0, 0.162);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: orange;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vh;
+}

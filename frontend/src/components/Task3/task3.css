@@ -1,0 +1,91 @@
+.profileContainer {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  top: 0%;
+  left: 0%;
+  max-width: 100%;
+  padding-top: 12vh;
+}
+
+.profileContainer > div {
+  display: flex;
+  height: 80vh;
+  width: 100vh;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.leftContainer {
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: rgba(0, 0, 0, 0.5);
+  font: 300 2.2vmax "Inter";
+}
+
+.profile-pic {
+  width: 25vmax;
+  height: 25vmax;
+  border-radius: 100%;
+  background-color: rgba(148, 151, 160, 0.296);
+}
+.profile-pic:hover {
+  transform: scale(1.03);
+}
+
+.rightContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.rightContainer > div {
+  justify-content: space-around;
+  padding: 1vh;
+  width: 40%;
+}
+
+.rightContainer > div > h4 {
+  color: black;
+  font: 400 2.5vh "Inter";
+}
+
+.rightContainer > div > p {
+  font: 400 1.5vh cursive;
+  margin: 0.2vmax;
+  color: rgba(0, 0, 0, 0.426);
+}
+
+@media screen and (max-width: 700px) {
+  .profileContainer {
+    flex-direction: column;
+  }
+  .heading {
+    font: 500 3.2vmax "Inter";
+    margin: 15px;
+  }
+  .rightContainer > div {
+    align-items: center;
+    text-align: center;
+    padding: 2vw;
+  }
+  .rightContainer > div > h4 {
+    font: 400 2.5vmax "Roboto";
+  }
+
+  .rightContainer > div > p {
+    font: 400 2vmax cursive;
+    margin: 0.5vmax 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .rightContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightContainer > div {
+    align-items: center;
+    text-align: center;
+  }
+}
