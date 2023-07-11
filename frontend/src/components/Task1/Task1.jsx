@@ -1,4 +1,4 @@
-import Box from "./box";
+import Box from "./Box";
 import "./task1.css";
 import { useSelector } from "react-redux";
 const Task1 = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./task2.css";
-import Card from "./card";
+import Card from "./Card";
 import { fetchUsers } from "../../redux/usersSlice";
 const Task2 = () => {
   const dispatch = useDispatch();
